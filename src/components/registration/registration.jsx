@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './registration.css'
 import logo from './school.svg'
 
@@ -19,7 +19,7 @@ export default class Registration extends React.Component{
                        <form className={this.state.registrationForm}>
                        <input type="text" placeholder='name'/>
                        <input type="password" placeholder='password'/>
-                       <input type="text" placeholder='email address'/>
+                       <input type="text" placeholder='email'/>
                        <button>create</button>
                        <p className="message">Already registered? <a href="#" onClick={()=>this.registered()} >Sign In</a></p>
                        </form>
