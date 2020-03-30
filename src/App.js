@@ -6,13 +6,13 @@ import Registration from './components/registration/registration'
 function App() {
 
   return (
-      <BrowserRouter>
-        <div className="container">
-          <Switch>
-            <Route path={'/login'} exact component={Registration} />
-          </Switch>
-        </div>
-      </BrowserRouter>
+    <BrowserRouter>
+      <div className="container">
+        <Switch>
+          <Route path={'/login'} exact component={Registration} />
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 

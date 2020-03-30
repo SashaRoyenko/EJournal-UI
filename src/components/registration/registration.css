@@ -5,6 +5,7 @@
     padding: 8% 0 0;
     margin: auto;
 }
+
 .form {
     position: relative;
     z-index: 1;
@@ -15,6 +16,7 @@
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
+
 .form input {
     font-family: "Roboto", sans-serif;
     outline: 0;
@@ -26,6 +28,7 @@
     box-sizing: border-box;
     font-size: 14px;
 }
+
 .form button {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
@@ -38,28 +41,30 @@
     font-size: 14px;
     cursor: pointer;
 }
+
 .form button:hover,.form button:active,.form button:focus {
     background: #336BED;
 }
+
 .form .message {
     margin: 15px 0 0;
     color: #b3b3b3;
     font-size: 12px;
 }
+
 .form .message a {
     color: #59BAED;
     text-decoration: none;
 }
 
 .form .display-none{
-    display:none;
+    display: none;
 }
 
 .logo{
     width: 100px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-
 
 body {
     font-family: "Roboto", sans-serif;
