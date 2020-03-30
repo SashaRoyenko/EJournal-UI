@@ -7,11 +7,9 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="container">
-        <Switch>
-          <Route path={'/login'} exact component={Registration} />
-        </Switch>
-      </div>
+      <Switch>
+        <Route path={'/login'} exact component={Registration} />
+      </Switch>
     </BrowserRouter>
   );
 }
