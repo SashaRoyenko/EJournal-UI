@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TestView /> should render correctly 1`] = `
+<TestView>
+  <label>
+    <input
+      onChange={[Function]}
+      type="text"
+      value={0}
+    />
+  </label>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Get one user
+  </button>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Get all users
+  </button>
+</TestView>
+`;
+
+exports[`<TestView /> should show user with 0 id 1`] = `
+<TestView>
+  <label>
+    <input
+      onChange={[Function]}
+      type="text"
+      value={0}
+    />
+  </label>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Get one user
+  </button>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Get all users
+  </button>
+</TestView>
+`;
+
+exports[`<TestView /> should show user with 10 id 1`] = `
+<TestView>
+  <label>
+    <input
+      onChange={[Function]}
+      type="text"
+      value="10"
+    />
+  </label>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Get one user
+  </button>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Get all users
+  </button>
+</TestView>
+`;
