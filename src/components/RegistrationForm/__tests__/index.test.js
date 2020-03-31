@@ -9,6 +9,14 @@ describe('<RegistrationForm />', () => {
     onClickMessageHandler: onClickMessageHandlerMock,
   };
 
+  it('should render correctly with default props', () => {
+    const sut = mount(<RegistrationForm />);
+
+    expect(sut).toMatchSnapshot();
+
+    sut.find(FormMessage).find('a').simulate('click');
+  });
+
   it('should render correctly', () => {
     const sut = mount(<RegistrationForm {...mandatoryProps} />);
 
