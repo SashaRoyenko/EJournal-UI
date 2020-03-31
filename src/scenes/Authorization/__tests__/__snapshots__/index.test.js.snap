@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Authorization /> should render login form after click on redirection link 1`] = `ReactWrapper {}`;
+
+exports[`<Authorization /> should render registration form 1`] = `ReactWrapper {}`;
