@@ -1,18 +1,16 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Registration from './components/registration/registration'
+import './reset.css';
+import Authorization from './scenes/Authorization/index';
 
 function App() {
-
   return (
-      <BrowserRouter>
-        <div className="container">
-          <Switch>
-            <Route path={'/login'} exact component={Registration} />
-          </Switch>
-        </div>
-      </BrowserRouter>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/login" exact component={Authorization} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

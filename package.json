@@ -12,12 +12,40 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^25.2.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "husky": "^4.2.3",
+    "jest": "^25.2.4",
+    "prettier": "^2.0.2",
+    "react-test-renderer": "^16.13.1",
+    "regenerator-runtime": "^0.13.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "prettier": "prettier --write src/**/*.js",
+    "lint": "eslint src/",
+    "lintF": "eslint --fix src/",
+    "test": "jest",
+    "testC": "jest --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +62,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx prettier --write src/**/*.js && npx eslint --fix src/",
+      "pre-push": "npm test",
+      "...": "..."
+    }
   }
 }

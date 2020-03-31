@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Authorization /> should render login form after click on redirection link 1`] = `
+<Authorization>
+  <styled.div>
+    <div
+      className="sc-AxgMl hhGqQi"
+    >
+      <Registration
+        onClickMessageHandler={[Function]}
+      >
+        <styled.div>
+          <div
+            className="sc-AxjAm kFqgcy"
+          >
+            <styled.img
+              alt="logo"
+              src={Object {}}
+            >
+              <img
+                alt="logo"
+                className="sc-AxhUy fdjSkp"
+                src={Object {}}
+              />
+            </styled.img>
+            <form>
+              <styled.input
+                placeholder="name"
+                type="text"
+              >
+                <input
+                  className="sc-AxirZ PTCQu"
+                  placeholder="name"
+                  type="text"
+                />
+              </styled.input>
+              <styled.input
+                placeholder="username"
+                type="text"
+              >
+                <input
+                  className="sc-AxirZ PTCQu"
+                  placeholder="username"
+                  type="text"
+                />
+              </styled.input>
+              <styled.input
+                placeholder="password"
+                type="password"
+              >
+                <input
+                  className="sc-AxirZ PTCQu"
+                  placeholder="password"
+                  type="password"
+                />
+              </styled.input>
+              <styled.button>
+                <button
+                  className="sc-AxiKw bAyasi"
+                >
+                  create
+                </button>
+              </styled.button>
+              <styled.p>
+                <p
+                  className="sc-AxhCb eVMfSZ"
+                >
+                  <span>
+                    Not registered? 
+                  </span>
+                  <a
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    Create an account
+                  </a>
+                </p>
+              </styled.p>
+            </form>
+          </div>
+        </styled.div>
+      </Registration>
+    </div>
+  </styled.div>
+</Authorization>
+`;
+
+exports[`<Authorization /> should render registration form 1`] = `
+<Authorization>
+  <styled.div>
+    <div
+      className="sc-AxgMl hhGqQi"
+    >
+      <LoginForm
+        onClickMessageHandler={[Function]}
+      >
+        <styled.div>
+          <div
+            className="sc-AxjAm kFqgcy"
+          >
+            <styled.img
+              alt="logo"
+              src={Object {}}
+            >
+              <img
+                alt="logo"
+                className="sc-AxhUy fdjSkp"
+                src={Object {}}
+              />
+            </styled.img>
+            <form>
+              <styled.input
+                placeholder="username"
+                type="text"
+              >
+                <input
+                  className="sc-AxirZ PTCQu"
+                  placeholder="username"
+                  type="text"
+                />
+              </styled.input>
+              <styled.input
+                placeholder="password"
+                type="password"
+              >
+                <input
+                  className="sc-AxirZ PTCQu"
+                  placeholder="password"
+                  type="password"
+                />
+              </styled.input>
+              <styled.button>
+                <button
+                  className="sc-AxiKw bAyasi"
+                >
+                  login
+                </button>
+              </styled.button>
+              <styled.p>
+                <p
+                  className="sc-AxhCb eVMfSZ"
+                >
+                  <span>
+                    Already registered? 
+                  </span>
+                  <a
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    Sign In
+                  </a>
+                </p>
+              </styled.p>
+            </form>
+          </div>
+        </styled.div>
+      </LoginForm>
+    </div>
+  </styled.div>
+</Authorization>
+`;
