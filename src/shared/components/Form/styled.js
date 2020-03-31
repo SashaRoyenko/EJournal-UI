@@ -1,6 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
-import * as cssConst from '../../variables'
+import styled from 'styled-components';
+import * as cssConst from '../../variables';
 
 export const FormContainer = styled.div`
     padding: 45px;

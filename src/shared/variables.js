@@ -1,5 +1,5 @@
 // FONTS
-export const defaultFontFamily = 'Roboto, sans-serif;'
+export const defaultFontFamily = 'Roboto, sans-serif;';
 
 // COLORS
 export const normalShadow = 'rgba(0, 0, 0, 0.2)';
