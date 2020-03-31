@@ -33,14 +33,16 @@
     "eslint-plugin-react-hooks": "^2.5.1",
     "husky": "^4.2.3",
     "jest": "^25.2.4",
+    "prettier": "^2.0.2",
     "regenerator-runtime": "^0.13.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
+    "prettier": "prettier --write src/**/*.js",
     "lint": "eslint src/",
     "lintF": "eslint --fix src/",
+    "test": "jest",
     "testC": "jest --coverage",
     "eject": "react-scripts eject"
   },
@@ -61,7 +63,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npx eslint --fix src/ && npm test",
+      "pre-commit": "npx prettier --write src/**/*.js && npx eslint --fix src/",
       "pre-push": "npm test",
       "...": "..."
     }

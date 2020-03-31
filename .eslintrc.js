@@ -23,7 +23,6 @@ module.exports = {
     'react',
   ],
   rules: {
-    'linebreak-style': ["error", "windows"],
     'react/jsx-filename-extension': 0,
     'react/prefer-stateless-function': 0,
   },

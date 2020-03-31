@@ -1,9 +1,7 @@
 import React from 'react';
 import RegistrationForm from '../../components/RegistrationForm/index';
 import LoginForm from '../../components/LoginForm/index';
-import {
-  PageContainer,
-} from './styled';
+import { PageContainer } from './styled';
 
 export default class Authorization extends React.Component {
   constructor(props) {
@@ -24,13 +22,11 @@ export default class Authorization extends React.Component {
     const { registration } = this.state;
     return (
       <PageContainer>
-        {
-            registration ? (
-              <RegistrationForm onClickMessageHandler={this.switchForm} />
-            ) : (
-              <LoginForm onClickMessageHandler={this.switchForm} />
-            )
-        }
+        {registration ? (
+          <RegistrationForm onClickMessageHandler={this.switchForm} />
+        ) : (
+          <LoginForm onClickMessageHandler={this.switchForm} />
+        )}
       </PageContainer>
     );
   }

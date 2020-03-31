@@ -22,7 +22,9 @@ export default class LoginForm extends React.Component {
           <FormMessage>
             <span>Already registered? </span>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="#" onClick={onClickMessageHandler}>Sign In</a>
+            <a href="#" onClick={onClickMessageHandler}>
+              Sign In
+            </a>
           </FormMessage>
         </form>
       </FormContainer>

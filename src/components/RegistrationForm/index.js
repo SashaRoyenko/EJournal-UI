@@ -23,7 +23,9 @@ export default class Registration extends React.Component {
           <FormMessage>
             <span>Not registered? </span>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="#" onClick={onClickMessageHandler}>Create an account</a>
+            <a href="#" onClick={onClickMessageHandler}>
+              Create an account
+            </a>
           </FormMessage>
         </form>
       </FormContainer>
