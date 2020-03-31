@@ -188,4 +188,12 @@ module.exports = {
   // watchman: true,
   setupFilesAfterEnv: ["<rootDir>/setupTests.js"],
   collectCoverageFrom : ["src/*/**/*.jsx", "src/*/**/*.js"],
+  coverageThreshold: {
+    global: {
+      statements: 75,
+      branches: 75,
+      functions: 75,
+      lines: 75,
+    }
+  },
 };
