@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdminPage /> should render AdminPage 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <AdminPage>
+      <styled.div>
+        <div
+          className="sc-fzpans btovee"
+        >
+          <Header>
+            <styled.div>
+              <div
+                className="sc-AxjAm krUDSd"
+              >
+                <Styled(Link)
+                  to="/"
+                >
+                  <Link
+                    className="sc-AxirZ hDvptI"
+                    to="/"
+                  >
+                    <LinkAnchor
+                      className="sc-AxirZ hDvptI"
+                      href="/"
+                      navigate={[Function]}
+                    >
+                      <a
+                        className="sc-AxirZ hDvptI"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        E-JOURNAL
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </Styled(Link)>
+                <styled.div>
+                  <div
+                    className="sc-AxiKw cnGxsf"
+                  >
+                    <styled.span>
+                      <span
+                        className="sc-AxhCb iJjSrs"
+                      >
+                        Ви увійшли як: 
+                        <styled.span
+                          highlighted={true}
+                        >
+                          <span
+                            className="sc-AxhCb bSAOZc"
+                          >
+                            SuperAdmin
+                          </span>
+                        </styled.span>
+                      </span>
+                    </styled.span>
+                    <styled.button>
+                      <button
+                        className="sc-AxhUy gLaaua"
+                      >
+                        Вийти
+                      </button>
+                    </styled.button>
+                  </div>
+                </styled.div>
+              </div>
+            </styled.div>
+          </Header>
+          <styled.div>
+            <div
+              className="sc-fzplWN cBkhkL"
+            >
+              <Aside
+                matchPath="/admin"
+              >
+                <styled.div>
+                  <div
+                    className="sc-AxgMl jnorjr"
+                  >
+                    <Styled(Link)
+                      key="0"
+                      to="/admin/admins"
+                    >
+                      <Link
+                        className="sc-AxheI gHUETA"
+                        to="/admin/admins"
+                      >
+                        <LinkAnchor
+                          className="sc-AxheI gHUETA"
+                          href="/admin/admins"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="sc-AxheI gHUETA"
+                            href="/admin/admins"
+                            onClick={[Function]}
+                          >
+                            Адміністратори
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </Styled(Link)>
+                    <Styled(Link)
+                      key="1"
+                      to="/admin/schools"
+                    >
+                      <Link
+                        className="sc-AxheI gHUETA"
+                        to="/admin/schools"
+                      >
+                        <LinkAnchor
+                          className="sc-AxheI gHUETA"
+                          href="/admin/schools"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="sc-AxheI gHUETA"
+                            href="/admin/schools"
+                            onClick={[Function]}
+                          >
+                            Навчальні заклади
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </Styled(Link)>
+                  </div>
+                </styled.div>
+              </Aside>
+              <Content
+                matchPath="/admin"
+              >
+                <styled.div>
+                  <div
+                    className="sc-fzozJi fypqdC"
+                  >
+                    <Route
+                      component={[Function]}
+                      key="0"
+                      path="/admin/test"
+                    />
+                    <Route
+                      component={[Function]}
+                      key="0"
+                      path="/admin/test"
+                    />
+                  </div>
+                </styled.div>
+              </Content>
+            </div>
+          </styled.div>
+          <Footer>
+            <styled.div>
+              <div
+                className="sc-Axmtr kBbqSG"
+              >
+                <styled.span>
+                  <span
+                    className="sc-AxmLO hgITUO"
+                  >
+                    © E-JOURNAL. ROBOSH 2020
+                  </span>
+                </styled.span>
+              </div>
+            </styled.div>
+          </Footer>
+        </div>
+      </styled.div>
+    </AdminPage>
+  </Router>
+</BrowserRouter>
+`;
