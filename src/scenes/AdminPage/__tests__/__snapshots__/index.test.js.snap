@@ -27,7 +27,7 @@ exports[`<AdminPage /> should render AdminPage 1`] = `
     <AdminPage>
       <styled.div>
         <div
-          className="sc-fzpans btovee"
+          className="sc-fzoXzr cDcCYV"
         >
           <Header>
             <styled.div>
@@ -90,7 +90,7 @@ exports[`<AdminPage /> should render AdminPage 1`] = `
           </Header>
           <styled.div>
             <div
-              className="sc-fzplWN cBkhkL"
+              className="sc-fzpjYC dNKfkG"
             >
               <Aside
                 matchPath="/admin"
@@ -153,7 +153,7 @@ exports[`<AdminPage /> should render AdminPage 1`] = `
               >
                 <styled.div>
                   <div
-                    className="sc-fzozJi fypqdC"
+                    className="sc-fzoyAV koRniG"
                   >
                     <Route
                       component={[Function]}
@@ -162,8 +162,28 @@ exports[`<AdminPage /> should render AdminPage 1`] = `
                     />
                     <Route
                       component={[Function]}
+                      key="1"
+                      path="/admin/addAdmin"
+                    />
+                    <Route
+                      component={[Function]}
+                      key="2"
+                      path="/admin/editAdmin"
+                    />
+                    <Route
+                      component={[Function]}
                       key="0"
                       path="/admin/test"
+                    />
+                    <Route
+                      component={[Function]}
+                      key="1"
+                      path="/admin/addAdmin"
+                    />
+                    <Route
+                      component={[Function]}
+                      key="2"
+                      path="/admin/editAdmin"
                     />
                   </div>
                 </styled.div>
