@@ -13,7 +13,7 @@ export default class Footer extends React.Component {
                             <Input type="text" placeholder="   Прізвище" />
                         </TableItem>
                         <TableItem>
-                            <ItemTitle>Ім'я</ItemTitle>
+                            <ItemTitle>Ім&apos;я</ItemTitle>
                             <Input type="text" placeholder="   Ім'я" />
                         </TableItem>
                         <TableItem>
