@@ -20,3 +20,6 @@ export const themeLight = '#c2c2c2';
 
 export const labelHighlight = '#f8f9fa';
 export const labelDefault = '#bfbfbf';
+
+export const buttonBlue = '#007bff';
+export const buttonBlueOnClick = '#001a9f';
