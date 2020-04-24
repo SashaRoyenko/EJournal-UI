@@ -1,8 +1,16 @@
 import React from 'react';
 import { Wrapper, TableItem, Input, ItemTitle, Button} from './styled';
 
-export default class Footer extends React.Component {
+export default class AddAdmin extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            schools: ["1","2","3","4"],
+        };
+    }
     render() {
+        const { schools } = this.state;
         return (
             <Wrapper>
                 <form>
@@ -19,7 +27,7 @@ export default class Footer extends React.Component {
                         <TableItem>
                             <ItemTitle>Навчальний заклад</ItemTitle>
                             <select name="school" >
-                                <option value="">Навчальний заклад</option>
+                                {schools.map((school)=> <option key={"#"} value="#">{school}</option>)}
                             </select>
                         </TableItem>
                     </tr>

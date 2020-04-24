@@ -1,8 +1,22 @@
 import React from 'react';
 import { Wrapper, TableItem, Input, ItemTitle, Button} from './styled';
 
-export default class Footer extends React.Component {
+export default class EditAdmin extends React.Component {
+    constructor(props){
+        super(props);
+
+        this.state = {
+            selectedSchool: "School №1",
+            name: "selectedName",
+            lastName:"selectedLastName",
+            email:"selectedEmail",
+            password:"selectedPassword",
+            schools: ["1","2","3","4"],
+        };
+    }
+
     render() {
+        const {selectedSchool, schools, name, lastName, email, password} = this.state;
         return (
             <Wrapper>
                 <form>
@@ -10,27 +24,28 @@ export default class Footer extends React.Component {
                     <tr>
                         <TableItem>
                             <ItemTitle>Прізвище</ItemTitle>
-                            <Input type="text" placeholder="#" />
+                            <Input type="text" placeholder={lastName} />
                         </TableItem>
                         <TableItem>
                             <ItemTitle>Ім&apos;я</ItemTitle>
-                            <Input type="text" placeholder="#" />
+                            <Input type="text" placeholder={name} />
                         </TableItem>
                         <TableItem>
                             <ItemTitle>Навчальний заклад</ItemTitle>
                             <select name="#" >
-                                <option value="">Навчальний заклад</option>
+                                <option value="">{selectedSchool}</option>
+                                {schools.map((school)=>(<option value="">{school}</option>))}
                             </select>
                         </TableItem>
                     </tr>
                     <tr>
                         <TableItem>
                             <ItemTitle>Електронна пошта</ItemTitle>
-                            <Input type="text" placeholder="#" />
+                            <Input type="text" placeholder={email} />
                         </TableItem>
                         <TableItem>
                             <ItemTitle>Пароль</ItemTitle>
-                            <Input type="password" placeholder="#" />
+                            <Input type="password" placeholder={password} />
                         </TableItem>
                     </tr>
                 </table>

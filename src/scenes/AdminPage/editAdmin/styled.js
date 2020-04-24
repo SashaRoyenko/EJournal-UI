@@ -39,4 +39,9 @@ export const Button = styled.button`
   color: white;
   font-weight: bold;
   border:none;
+  
+  &:active{
+  background-color: ${cssConst.buttonBlueOnClick};
+  border: 2px solid ${cssConst.turquoise};
+  }
 `;
