@@ -11,13 +11,13 @@ export default (matchPath) => [
   {
     id: 1,
     title: 'Додати адміністратора',
-    path: `${matchPath}/addAdmin`,
+    path: `${matchPath}/add-admin`,
     component: addAdmin,
   },
   {
     id: 2,
     title: 'Змінити адміністратора',
-    path: `${matchPath}/editAdmin`,
+    path: `${matchPath}/edit-admin`,
     component: editAdmin,
   }
 ];
