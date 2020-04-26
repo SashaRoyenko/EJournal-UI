@@ -8,5 +8,6 @@ export default (matchPath) => [
     id: 1,
     title: 'Навчальні заклади',
     to: `${matchPath}/schools`,
-  }
+  },
+
 ];
