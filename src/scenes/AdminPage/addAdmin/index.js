@@ -26,7 +26,7 @@ export default class AddAdmin extends React.Component {
                     <InputItem>
                         <ItemTitle>Навчальний заклад</ItemTitle>
                         <select name="school">
-                            {schools.map((school) => <option key={"#"} value="#">{school}</option>)}
+                            {schools.map((school) => <option key="#" value="#">{school}</option>)}
                         </select>
                     </InputItem>
                     <InputItem>

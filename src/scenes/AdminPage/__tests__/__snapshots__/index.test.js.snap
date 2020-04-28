@@ -27,7 +27,7 @@ exports[`<AdminPage /> should render AdminPage 1`] = `
     <AdminPage>
       <styled.div>
         <div
-          className="sc-fzoXzr cDcCYV"
+          className="sc-fzokOt gxZieN"
         >
           <Header>
             <styled.div>
@@ -90,7 +90,7 @@ exports[`<AdminPage /> should render AdminPage 1`] = `
           </Header>
           <styled.div>
             <div
-              className="sc-fzpjYC dNKfkG"
+              className="sc-fzqBZW hzcYnc"
             >
               <Aside
                 matchPath="/admin"
@@ -153,7 +153,7 @@ exports[`<AdminPage /> should render AdminPage 1`] = `
               >
                 <styled.div>
                   <div
-                    className="sc-fzoyAV koRniG"
+                    className="sc-fznKkj bXUgUD"
                   >
                     <Route
                       component={[Function]}
@@ -163,12 +163,12 @@ exports[`<AdminPage /> should render AdminPage 1`] = `
                     <Route
                       component={[Function]}
                       key="1"
-                      path="/admin/addAdmin"
+                      path="/admin/add-admin"
                     />
                     <Route
                       component={[Function]}
                       key="2"
-                      path="/admin/editAdmin"
+                      path="/admin/edit-admin"
                     />
                     <Route
                       component={[Function]}
@@ -178,12 +178,12 @@ exports[`<AdminPage /> should render AdminPage 1`] = `
                     <Route
                       component={[Function]}
                       key="1"
-                      path="/admin/addAdmin"
+                      path="/admin/add-admin"
                     />
                     <Route
                       component={[Function]}
                       key="2"
-                      path="/admin/editAdmin"
+                      path="/admin/edit-admin"
                     />
                   </div>
                 </styled.div>

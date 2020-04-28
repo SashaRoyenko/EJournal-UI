@@ -32,7 +32,7 @@ export default class EditAdmin extends React.Component {
                         <ItemTitle>Навчальний заклад</ItemTitle>
                         <select name="school">
                             <option value="">{selectedSchool}</option>
-                            {schools.map((school) => <option key={"#"} value="#">{school}</option>)}
+                            {schools.map((school) => <option key="#" value="#">{school}</option>)}
                         </select>
                     </InputItem>
                     <InputItem>
